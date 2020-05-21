@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
@@ -7,23 +8,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minha Página</title>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <img src="" alt="logo" width="220" height="80"/>
-       <!-- <a href="#" class="navbar-brand">Minha Página</a>-->
+    <nav class="navbar navbar-expand-lg navbar-light padding">
+        <img src="" alt="logo" width="220" height="80" />
+        <!-- <a href="#" class="navbar-brand">Minha Página</a>-->
+
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="navbar-item">
+                    <a href="#quemsomos" class="nav-link">Quem somos</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#parceiros" class="nav-link">Parceiros</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#" class="nav-link">Serviços</a>
+                </li>
+            </ul>
+        </div>
     </nav>
-    <div class="collapse navbar-collapse">
-        <ul class="navbar-nav">
-            <li class="navbar-item">
-                <a href="#" class="nav-link">Quem somos</a>
-            </li>
-            <li class="navbar-item">
-                <a href="#" class="nav-link">Parceiros</a>
-            </li>
-            <li class="navbar-item">
-                <a href="#" class="nav-link">Serviços</a>
-            </li>
-        </ul>
-    </div>
+    <section id='quemsomos'>
+        <div class="container-fluid quemsomos text-center padding">
+            <h3>Quem somos</h3>
+            <img src="" alt="quem somos" class="rouded-circle" width="400" height="400">
+            <h4>Somos um time comprometido com o resultado</h4>
+        </div>
+    </section>
+    <section id='parceiros'>
+        <div class="container-fluid text-center padding parceiros ">
+            <h3 class="padding">Parceiros</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="" alt="parceiro" width="100%">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="" alt="parceiro" width="100%">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="" alt="parceiro" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id='servicos'>
+        <div class="container-fluid text-center padding servicos" >
+            <h3 class="padding">Serviços</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img src="" alt="servicos" width="100%">
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="" alt="servicos" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="container-fluid text-center bg-footer padding">
+        <p>Desenvolvido por Douglas</p>
+    </footer>
 </body>
+
 </html>
